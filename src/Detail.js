@@ -30,39 +30,32 @@ class Detail extends Component {
               <Text>Enalapril</Text>
             </CardItem>
             <CardItem header>
-              <Text>ชื่อยา </Text>
-            </CardItem>
-            <CardItem>
               <Body>
-                <Text> Enalapril </Text>
+              <Text>ชื่อยา : Enalapril</Text>
+              <Text>ข้อบ่งใช้ : ลดความดันโลหิตสูง</Text>
+              <Text>ขนาดยาที่ใช้ : รับประทานครั้งละ 5-20 mg ทุก 12-24 ชั่วโมง</Text>
               </Body>
             </CardItem>
             <CardItem header>
-              <Text>ข้อบ่งใช้ :</Text>
-            </CardItem>
-            <CardItem>
               <Body>
-              <Text>ลดความดันโลหิตสูง </Text>
+              <Text>การปรับขนาดยาในผู้ป่วยที่ไตทำงานบกพร่อง :  </Text>
+              <Text>  CrCl น้อยกว่า 50 ml/min : รับประทานครั้งละ 5-20 mg ทุก 12-24 ชั่วโมง  </Text>
+              <Text>  CrCl 10-50 ml/min : รับประทานครั้งละ 2.5-20 mg ทุก 12-24 ชั่วโมง  </Text>
+              <Text>  CrCl มากกว่า 10 ml/min : รับประทานครั้งละ 1.25-5 mg ทุก 12-24 ชั่วโมง</Text>
               </Body>
             </CardItem>
             <CardItem header>
-              <Text>ขนาดยาที่ใช้ :</Text>
-            </CardItem>
-            <CardItem>
-            <Text>  รับประทานครั้งละ 5-20 mg ทุก 12-24 ชั่วโมง </Text>
-            </CardItem>
-            <CardItem header>
-            <Text> การปรับขนาดยาในผู้ป่วยที่ไตทำงานบกพร่อง :  </Text>
             </CardItem>
             <CardItem>
               <Body>
-              <Text> CrCl น้อยกว่า 50 ml/min : รับประทานครั้งละ 5-20 mg ทุก 12-24 ชั่วโมง  </Text>
-              <Text> CrCl 10-50 ml/min : รับประทานครั้งละ 2.5-20 mg ทุก 12-24 ชั่วโมง  </Text>
-              <Text> CrCl มากกว่า 10 ml/min : รับประทานครั้งละ 1.25-5 mg ทุก 12-24 ชั่วโมง</Text>
+              <Text>การปรับขนาดยาในผู้ป่วยฟอกเลือดด้วยเครื่องไตเทียม :</Text>
+              <Text>  ยาถูกขับออกระหว่างการฟอกเลือดได้ปานกลาง (20-50%)</Text>
+              <Text>  แนะนำให้รับประทานยาหลังทำการฟอกเลือด โดยเริ่มต้นที่ขนาด 2.5 mg</Text>
               </Body>
             </CardItem>
-            <CardItem footer>
-              <Text>GeekyAnts</Text>
+            <CardItem footer bordered>
+              <Text style={{backgroundColor:'red'}}>ยาถูกขับออกได้ ควรติดตามระดับความดันโลหิตของผู้ป่วยอย่างใกล้ชิด
+</Text>
             </CardItem>
          </Card>
             </Content>
